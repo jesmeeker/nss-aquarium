@@ -1,5 +1,4 @@
 import { getFish } from './database.js'
-import { FishList } from './FishList.js'
 
 const allFish = getFish()
 
@@ -17,7 +16,7 @@ import { FishList } from './FishList.js'
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector(".fish")
+const parentHTMLElement = document.querySelector(".fishItems")
 
 
 parentHTMLElement.innerHTML = FishList()

@@ -90,8 +90,7 @@ body {
     padding: 0em 0;
   }
   
-  h1,
-  footer {
+  h1 {
     background: #fcfcfc;
     display: flex;
     align-items: center;
@@ -139,6 +138,8 @@ body {
 
  .tankTips {
     list-style-position: outside;
+    margin-left: 0;
+    padding: 0;
   }
 
   h1 {

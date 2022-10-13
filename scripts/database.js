@@ -7,7 +7,7 @@ const database ={
             length: 4.25,
             location: "Australia",
             diet: "Yummy Pellets", 
-            photo: 
+            photo: "/photos/blue_tang.jpeg"
         },
         {
             id: 2,
@@ -16,7 +16,7 @@ const database ={
             length: 3.75,
             location: "Australia",
             diet: "Yummy Pellets",
-            photo: 
+            photo: "/photos/yellow_tang.jpeg"
         },
         {
             id: 3,
@@ -25,7 +25,7 @@ const database ={
             length: 4.5,
             location: "Africa",
             diet: "Yummy Pellets",
-            photo: 
+            photo: "/photos/moorish-idol.jpeg"
         },
         {
             id: 4,
@@ -33,7 +33,8 @@ const database ={
             species: "Striped Damselfish",
             length: 2.9,
             location: "Sudan",
-            diet: "Yummy Pellets"
+            diet: "Yummy Pellets",
+            photo: "/photos/striped-damselfish.jpeg"
         }
     ]
 } 

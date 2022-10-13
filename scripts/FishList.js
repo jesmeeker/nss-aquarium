@@ -6,8 +6,7 @@ export const FishList = () => {
     const fishes = getFish()
 
     // Start building a string filled with HTML syntax
-    const htmlString = `<header class="title">Fish Inventory</header><br>
-    <section class="fishItems">`
+    let htmlString = ``
 
     // Create HTML representations of each fish here
     for (const fish of fishes) {
@@ -24,3 +23,4 @@ export const FishList = () => {
 
     return htmlString
 }
+
